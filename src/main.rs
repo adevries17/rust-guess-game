@@ -5,7 +5,7 @@ use std::io;
 
 // define the main function
 fn main() {
-    println!("Guess the number!");
+    println!("Guess the number! It is between 1 and 10");
 
     let secret_number = rand::thread_rng().gen_range(1..11);
 
